@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+:root{
+    --main-color: rgba(24, 14, 14, 0.678);
+    --secondery-color: rgba(219, 217, 217, 0.815);
+    --main-font:rgba(22, 1, 1, 0.966);
+}
+h1{
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--main-font);
+}
+.font-color{
+    color: rgba(66, 1, 1, 0.849);
+}
+body{
+    background: rgba(202, 201, 201, 0.308);
+}
