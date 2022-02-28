@@ -12,18 +12,17 @@ const showResult = (info) => {
     const div = document.createElement("div");
     div.classList.add("col");
     div.innerHTML = `
-        <div class="card">
-            <img src="${singleElement.image}" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
-              </p>
+        <div class="card h-100">
+            <img src="${singleElement.image}" class="card-img-top p-4" alt="image" />
+            <div class="card-body d-flex flex-column">
+              <h4 class="card-title">${singleElement.phone_name}</h4>
+              <h6 class="card-text">
+               ${singleElement.brand}
+              </h6> 
+              <div class="mt-auto"><button  class="btn btn-click">details</button></div>
             </div>
           </div>
         `;
-        details.appendChild(div)
+    details.appendChild(div);
   });
 };
