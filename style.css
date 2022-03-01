@@ -1,65 +1,71 @@
 /* google font */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
 :root {
-  --main-color: rgba(163, 165, 67, 0.678);
-  --secondery-color: rgba(88, 138, 185, 0.815);
-  --main-font: rgba(36, 26, 16, 0.644);
+    --main-color: #4a69bd;
+    --secondery-color: #485460;
+    --main-font: rgba(36, 26, 16, 0.644);
 }
 h1 {
-  font-weight: 700;
-  font-size: 3rem;
-  color: var(--main-font);
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--main-font);
 }
 .font-color {
-  color: rgba(36, 115, 121, 0.603);
+    color: rgba(36, 115, 121, 0.603);
 }
-a, a:hover{
-  text-decoration: none;
-  text-transform: capitalize;
+.logo,
+.logo:hover {
+    color: var(--secondery-color);
+}
+a,
+a:hover {
+    text-decoration: none;
+    text-transform: capitalize;
 }
 /* body part */
 body {
-  background: #cac9c94f;
+    background: #cac9c94f;
+    min-height: 100vh;
 }
 /* button part */
 .btn-click {
-  border-radius: 10px;
-  font-weight: bold;
-  padding: 7px 30px;
-  text-transform: capitalize;
-  transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    font-weight: bold;
+    padding: 7px 30px;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
 }
 .btn-click:hover {
-  color: white;
-  box-shadow: 20px 20px 50px 10px var(--secondery-color) inset;
+    color: white;
+    box-shadow: 20px 20px 50px 10px var(--secondery-color) inset;
 }
 /* card part */
 .card {
-  border: transparent;
+    border: transparent;
 }
 #details .card {
-  margin: 10px;
-  border-radius: 15px;
-  transition: all 0.3s ease-in-out;
-  background: #ffffff;
-  box-shadow: 9px 9px 14px #cecece, -9px -9px 14px #f2f2f2;
+    margin: 10px;
+    border-radius: 15px;
+    transition: all 0.3s ease-in-out;
+    background: #ffffff;
+    box-shadow: 9px 9px 14px #cecece, -9px -9px 14px #f2f2f2;
 }
 /* card hover part */
 #details .card:hover {
-  box-shadow: none;
+    box-shadow: none;
 }
-
-#single-phone img{
-  width: 80%;
-  margin: auto;
+#single-phone {
+    border-radius: 15px;
+    box-shadow: 9px 9px 14px #cecece, -9px -9px 14px #f2f2f2;
+}
+#single-phone img {
+    width: 80%;
+    margin: auto;
 }
 /* error msg part */
-#error-msg{
-  background: rgba(0, 0, 0, 0.808);
-  color: bisque;
-  padding: 15px;
-  margin: 10px;
-  border-radius: 15px;
-  border: 2px solid rgb(224, 184, 2);
-  
+#error-msg {
+    color: bisque;
+    margin: 10px;
+    border-radius: 15px;
+    text-transform: capitalize;
 }
