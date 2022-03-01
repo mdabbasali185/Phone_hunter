@@ -2,7 +2,7 @@
 :root {
   --main-color: rgba(163, 165, 67, 0.678);
   --secondery-color: rgba(88, 138, 185, 0.815);
-  --main-font: rgba(105, 65, 18, 0.801);
+  --main-font: rgba(36, 26, 16, 0.644);
 }
 h1 {
   font-weight: 700;
@@ -10,20 +10,16 @@ h1 {
   color: var(--main-font);
 }
 .font-color {
-  color: rgba(66, 1, 1, 0.849);
+  color: rgba(36, 115, 121, 0.603);
 }
 body {
-  background: rgba(202, 201, 201, 0.308);
+  background: #cac9c94f;
 }
 .btn-click {
-  background: rgba(129, 69, 54, 0.432);
-  color: var(--text-color);
-  border: 2px solid saddlebrown;
   border-radius: 10px;
-  padding: 5px;
-  margin: 5px;
-  font-size: 1rem;
   font-weight: bold;
+  padding: 7px 30px;
+  text-transform: capitalize;
   transition: all 0.3s ease-in-out;
 }
 .btn-click:hover {
@@ -31,10 +27,20 @@ body {
   box-shadow: 20px 20px 50px 10px var(--secondery-color) inset;
 }
 .card {
+  border: transparent;
+}
+#details .card {
   margin: 10px;
   border-radius: 15px;
   transition: all 0.3s ease-in-out;
+  background: #ffffff;
+  box-shadow: 9px 9px 14px #cecece, -9px -9px 14px #f2f2f2;
 }
-.card:hover {
-  box-shadow: inset 2px 1px 9px -1px var(--secondery-color);
+#details .card:hover {
+  box-shadow: none;
+}
+
+#single-phone img{
+  width: 80%;
+  margin: auto;
 }
