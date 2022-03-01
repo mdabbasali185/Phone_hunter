@@ -17,23 +17,24 @@
   </head>
   <body>
     <!-- header part -->
-    <header class="mx-auto d-flex justify-content-center my-5">
-      <h1>phone <span class="font-color">Paradise</span></h1>
+    <header class="text-center my-5">
+      <h1><a href="/index.html" class="logo">phone <span class="font-color">Paradise</span></a></h1>
     </header>
     <!-- search phone section -->
     <section class="container my-5">
       <div class="d-flex">
-        <input value="iphone" id="searchInput" class="form-control me-2" type="Search"
+        <input  id="searchInput" class="form-control me-2" type="Search"
         place="Search aria="Search"/>
         <button onclick="searchData()" class="btn btn-click btn-secondary" type="">
           Search
         </button>
       </div>
     </section>
-    <section>
-      <h4 class="text-center fw-bold fs-2" id="error-msg"></h4>
+    <!-- error msg part -->
+    <section class="w-50 text-center mx-auto">
+      <h4  class="text-center fw-bold fs-2" id="error-msg"></h4>
     </section>
-
+    <!-- single phone show part -->
     <section class="container">
       <div id="single-phone" class="card mb-3">
 
@@ -44,7 +45,7 @@
     <section class="container mx-auto w-80">
       <div
         id="details"
-        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 align-items-stretch"
+        class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-4 align-items-stretch"
       ></div>
     </section>
 
